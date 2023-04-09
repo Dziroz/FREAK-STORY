@@ -10,6 +10,7 @@ public class Log : Enemy
     public  Transform homePosition;
     void Start()
     {
+        currentState = EnemyState.idle;
         target = GameObject.FindWithTag("Player").transform;
     }
 
@@ -26,7 +27,19 @@ public class Log : Enemy
     {
         if(Vector3.Distance(target.position, transform.position) <= chaseRaidus && Vector3.Distance(target.position, transform.position) > attackRadius)
         {
-            transform.position = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
+            if (currentState == EnemyState.idle || currentState == EnemyState.walk && currentState != EnemyState.stagger)
+            {
+                transform.position = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
+                ChangeState(EnemyState.walk);
+            }
+
+        }
+    }
+    private void ChangeState(EnemyState newState)
+    {
+        if (currentState != newState)
+        {
+            currentState = newState;
         }
     }
 }
