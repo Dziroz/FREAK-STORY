@@ -4,12 +4,21 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public enum PlayerState
+    {
+        walk,
+        attack,
+        interact
+    }
     public float speed;
     private Rigidbody2D rb;
     private Vector3 change;
     private Animator animator;
+    public PlayerState currentState;
+
     void Start()
     {
+        currentState = PlayerState.walk;
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
     }
@@ -20,21 +29,28 @@ public class PlayerMovement : MonoBehaviour
         change = Vector3.zero;
         change.x = Input.GetAxisRaw("Horizontal");
         change.y = Input.GetAxisRaw("Vertical");
-        if(Input.GetKeyDown(KeyCode.Space) && animator.GetBool("attacking") == false)
+        if(Input.GetKeyDown(KeyCode.Space) && currentState != PlayerState.attack)
         {
             StartCoroutine(AttackCo());
+            
         }
     }
     private void FixedUpdate()
     {
-        UpdateAnimationAndMove();
+        if(currentState == PlayerState.walk)
+        {
+            UpdateAnimationAndMove();
+        }
+       // UpdateAnimationAndMove();
     }
     private IEnumerator AttackCo()
     {
         animator.SetBool("attacking", true);
+        currentState = PlayerState.attack;
         yield return null;
         animator.SetBool("attacking", false);
-        yield return new WaitForSeconds(.05f);
+        yield return new WaitForSeconds(.3f);
+        currentState = PlayerState.walk;
     }
     void UpdateAnimationAndMove() 
     {
@@ -52,6 +68,7 @@ public class PlayerMovement : MonoBehaviour
     }
     void MoveCharacter()
     {
+        change.Normalize();
         rb.MovePosition(transform.position + change * speed * Time.deltaTime);        
     }
 }
