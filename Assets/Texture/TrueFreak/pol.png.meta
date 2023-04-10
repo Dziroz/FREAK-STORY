@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7b39cb5891c13fe4eac09809729ddeee
+guid: cc44204b99ee48f498323a6daa2be017
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -117,13 +117,76 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cumni_0
+      name: pol_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e99b39c7aa0d3740b676d2e4a266364
+      internalID: -29636699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pol_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0dfa668b4af2946a70360cefa733f3
+      internalID: -2069179302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pol_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886f953420c46574994104c9753b7205
+      internalID: -891212824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pol_3
       rect:
         serializedVersion: 2
         x: 0
         y: 32
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 104a1a25a69eebd4fbc704f2fcea0455
-      internalID: 1418636411
+      spriteID: 45cc75f8bdafe8f448b907538155edbb
+      internalID: 432575923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cumni_1
+      name: pol_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 16
-        width: 16
-        height: 16
+        x: 32
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +215,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7474ab01f852ed488613f4729183088
-      internalID: -216481032
+      spriteID: d739db4a447f6064885928f08a385cf9
+      internalID: 1023213333
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cumni_2
+      name: pol_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389c9d885006e8d42be5d11e8d8a4d45
+      internalID: -1433868624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pol_6
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,41 +257,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 276cf757085ac4c458cfbd4361ae77b0
-      internalID: 2038455565
+      spriteID: a5fc42511aceaa84cb22fa02107351cf
+      internalID: -374354130
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cumni_3
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: da7d36f91bafa9848a1c828fd9988710
-      internalID: 1284217837
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cumni_4
+      name: pol_7
       rect:
         serializedVersion: 2
         x: 32
         y: 0
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,8 +278,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c65d0db945097846ac99a34257f1b19
-      internalID: -1851530398
+      spriteID: 942946fc3bef3494892606b0ed94b142
+      internalID: -468326784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pol_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb0dcd376943af4fbe702024cf4153c
+      internalID: 1480380757
       vertices: []
       indices: 
       edges: []
@@ -232,11 +316,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      cumni_3: 1284217837
-      cumni_4: -1851530398
-      cumni_1: -216481032
-      cumni_0: 1418636411
-      cumni_2: 2038455565
+      pol_2: -891212824
+      pol_0: -29636699
+      pol_7: -468326784
+      pol_4: 1023213333
+      pol_8: 1480380757
+      pol_6: -374354130
+      pol_5: -1433868624
+      pol_1: -2069179302
+      pol_3: 432575923
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

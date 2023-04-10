@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7b39cb5891c13fe4eac09809729ddeee
+guid: c11b3faca9852804a8ef0db6377e4a40
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,28 +117,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cumni_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 104a1a25a69eebd4fbc704f2fcea0455
-      internalID: 1418636411
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cumni_1
+      name: kamrn_0
       rect:
         serializedVersion: 2
         x: 0
@@ -152,14 +131,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7474ab01f852ed488613f4729183088
-      internalID: -216481032
+      spriteID: ca8579bc4f56fb74f90a222954b86d80
+      internalID: -533963762
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cumni_2
+      name: kamrn_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ae6d0ef3059ca4ea5fac8b87e460c2
+      internalID: -548885498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kamrn_2
       rect:
         serializedVersion: 2
         x: 0
@@ -173,14 +173,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 276cf757085ac4c458cfbd4361ae77b0
-      internalID: 2038455565
+      spriteID: 3a7adf1da7d469d458cd7b392d96f0a9
+      internalID: -1590286018
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cumni_3
+      name: kamrn_3
       rect:
         serializedVersion: 2
         x: 16
@@ -194,29 +194,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da7d36f91bafa9848a1c828fd9988710
-      internalID: 1284217837
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cumni_4
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3c65d0db945097846ac99a34257f1b19
-      internalID: -1851530398
+      spriteID: 0db22a83453db054b94373bfd1d86034
+      internalID: -1634867138
       vertices: []
       indices: 
       edges: []
@@ -232,11 +211,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      cumni_3: 1284217837
-      cumni_4: -1851530398
-      cumni_1: -216481032
-      cumni_0: 1418636411
-      cumni_2: 2038455565
+      kamrn_2: -1590286018
+      kamrn_3: -1634867138
+      kamrn_0: -533963762
+      kamrn_1: -548885498
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
