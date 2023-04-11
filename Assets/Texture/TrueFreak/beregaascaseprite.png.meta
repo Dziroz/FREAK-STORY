@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f2c9c15b503b89049bad06587a8b58d9
+guid: a386ee9d377eff648a8dd6379bc04eec
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,7 +105,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: travs_0
+      name: beregaascaseprite_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,14 +119,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf7712221d8282549a818f7b0c81a658
-      internalID: -433070605
+      spriteID: 20c6df737908eef42936f9f672e7d077
+      internalID: 1944964952
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: travs_1
+      name: beregaascaseprite_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,14 +140,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8702851dcd818548bdbf7af92d1efea
-      internalID: -1502328417
+      spriteID: ef44815c5c668b14ca2d0aaac5ea2bd0
+      internalID: -648337101
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: travs_2
+      name: beregaascaseprite_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,14 +161,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8da34e2bb9d8ba4c8afe2bd64d85909
-      internalID: -236515949
+      spriteID: 4237258b6376b3f4b9ccef4850a87038
+      internalID: 1877132776
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: travs_3
+      name: beregaascaseprite_3
       rect:
         serializedVersion: 2
         x: 0
@@ -182,14 +182,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6019a116d5844f4299e1df9ff7a4b51
-      internalID: -1566480008
+      spriteID: 4951cc556e3ca7f45932151454a22c93
+      internalID: -314199706
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: travs_4
+      name: beregaascaseprite_4
       rect:
         serializedVersion: 2
         x: 32
@@ -203,14 +203,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5384ad5d11a7e974f92bdbfe19445357
-      internalID: 1059867682
+      spriteID: 6ba145a3f4e061849969d88d3473d058
+      internalID: 1283032599
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: travs_5
+      name: beregaascaseprite_5
       rect:
         serializedVersion: 2
         x: 64
@@ -224,14 +224,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f31542e55686d9a4fb1e51be9f6f2de9
-      internalID: -523368300
+      spriteID: 2f0a821960b64884d82a1bbd3f8a491b
+      internalID: 1418800238
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: travs_6
+      name: beregaascaseprite_6
       rect:
         serializedVersion: 2
         x: 0
@@ -245,14 +245,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcf2f17c4cc7f27439722ca8afaf78a6
-      internalID: -1775017582
+      spriteID: 8266eb5bd85bd8a409a73d51ff6d1650
+      internalID: -1913647134
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: travs_7
+      name: beregaascaseprite_7
       rect:
         serializedVersion: 2
         x: 32
@@ -266,14 +266,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6e29e6a8b59c7c4b8bb19d4433d13d7
-      internalID: 1377811440
+      spriteID: 41597c6b6aded4d4b90d688a2360db3d
+      internalID: -965407841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: travs_8
+      name: beregaascaseprite_8
       rect:
         serializedVersion: 2
         x: 64
@@ -287,8 +287,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1106bda1ea4085648bf3efbfe4af581a
-      internalID: 953082733
+      spriteID: 154a6afff89c504469779e6fd0a4fc9d
+      internalID: 727768641
       vertices: []
       indices: 
       edges: []
@@ -304,15 +304,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      travs_4: 1059867682
-      travs_5: -523368300
-      travs_6: -1775017582
-      travs_7: 1377811440
-      travs_0: -433070605
-      travs_3: -1566480008
-      travs_1: -1502328417
-      travs_8: 953082733
-      travs_2: -236515949
+      beregaascaseprite_0: 1944964952
+      beregaascaseprite_7: -965407841
+      beregaascaseprite_2: 1877132776
+      beregaascaseprite_4: 1283032599
+      beregaascaseprite_1: -648337101
+      beregaascaseprite_3: -314199706
+      beregaascaseprite_8: 727768641
+      beregaascaseprite_6: -1913647134
+      beregaascaseprite_5: 1418800238
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e1bd53c2383cde74aa16b73945605146
+guid: ad6b06858b562be47b3780e636c4fb95
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -101,149 +101,11 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: trava_vnutr_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d1808ae2bfb61014a875c775f57a4505
-      internalID: -71259377
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: trava_vnutr_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f7b180461d1d8d84d978c0f4b62b1e28
-      internalID: -1430236400
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: trava_vnutr_2
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e1740956961163a4da67893607198985
-      internalID: 819957958
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: trava_vnutr_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b3ce47943d71d54595f7fe88092291d
-      internalID: 176118438
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: trava_vnutr_4
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8000cc62caa64cd4793053b9094e79c6
-      internalID: -937706729
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: trava_vnutr_5
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1ee769d280b72af45b6514b95d59b9fe
-      internalID: -565707183
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: trava_vnutr_6
+      name: "\u0441\u0442\u0435\u043D\u043E\u0433\u043E\u0440\u043E\u0434_0"
       rect:
         serializedVersion: 2
         x: 0
@@ -257,14 +119,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f195cd13fe3becc49937cc4dca8f7d59
-      internalID: 675939965
+      spriteID: facbcc8791bb7d9499918d75b474669d
+      internalID: 1552759396
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: trava_vnutr_7
+      name: "\u0441\u0442\u0435\u043D\u043E\u0433\u043E\u0440\u043E\u0434_1"
       rect:
         serializedVersion: 2
         x: 32
@@ -278,14 +140,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f8451e5b48e9b44296ef483933e6566
-      internalID: 23582047
+      spriteID: d7fa12274fbeb904897d6df4f55f91fd
+      internalID: 679863746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: trava_vnutr_8
+      name: "\u0441\u0442\u0435\u043D\u043E\u0433\u043E\u0440\u043E\u0434_2"
       rect:
         serializedVersion: 2
         x: 64
@@ -299,8 +161,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9fd5bdf2b2ba06489adf5f35e603b52
-      internalID: 346010109
+      spriteID: e43d639cb198900409dea78d8346ba62
+      internalID: -1092586755
       vertices: []
       indices: 
       edges: []
@@ -316,15 +178,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      trava_vnutr_2: 819957958
-      trava_vnutr_5: -565707183
-      trava_vnutr_1: -1430236400
-      trava_vnutr_8: 346010109
-      trava_vnutr_0: -71259377
-      trava_vnutr_3: 176118438
-      trava_vnutr_7: 23582047
-      trava_vnutr_6: 675939965
-      trava_vnutr_4: -937706729
+      "\u0441\u0442\u0435\u043D\u043E\u0433\u043E\u0440\u043E\u0434_1": 679863746
+      "\u0441\u0442\u0435\u043D\u043E\u0433\u043E\u0440\u043E\u0434_0": 1552759396
+      "\u0441\u0442\u0435\u043D\u043E\u0433\u043E\u0440\u043E\u0434_2": -1092586755
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
