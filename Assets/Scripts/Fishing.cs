@@ -28,7 +28,9 @@ public class Fishing : MonoBehaviour
     [SerializeField] float hookProgressDefradationPower = 0.1f;
     [SerializeField] SpriteRenderer hookSpriteRenderer;
 
+    [SerializeField] Transform progressBarContainer;
 
+    bool pause = false;
     void Start()
     {
         Resize();
@@ -48,8 +50,40 @@ public class Fishing : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (pause)
+        {
+            return;
+        }
         Fish();
         Hook();
+        ProgressCheck();
+    }
+    private void ProgressCheck()
+    {
+        Vector3 Is = progressBarContainer.localScale;
+        Is.y = hookProgress;
+        progressBarContainer.localScale = Is;
+
+        float min = hookPosition - hookSize / 2;
+        float max = hookPosition + hookSize / 2;
+
+        if(min < fishPosition && fishPosition < max)
+        {
+            hookProgress += hookPower * Time.deltaTime;
+        }
+        else
+        {
+            hookProgress -= hookProgressDefradationPower * Time.deltaTime;
+        }
+        if(hookProgress >= 1f)
+        {
+            Win();
+        }
+        hookProgress = Mathf.Clamp(hookProgress, 0f, 1f);
+    }
+    private void Win()
+    {
+        Debug.Log("YOU WIN");
     }
     void Fish()
     {
