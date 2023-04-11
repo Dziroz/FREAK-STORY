@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f2c9c15b503b89049bad06587a8b58d9
+guid: 8f9979b4210461f4f8462896e8408ed1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,7 +105,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: travs_0
+      name: "\u0431\u0435\u0440\u0435\u0433\u0430 \u043D\u0430\u0431\u043E\u0440\u043E\u0442_0"
       rect:
         serializedVersion: 2
         x: 0
@@ -119,14 +119,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf7712221d8282549a818f7b0c81a658
-      internalID: -433070605
+      spriteID: 7c7e50c9032f1284881c581161153a85
+      internalID: 1028110573
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: travs_1
+      name: "\u0431\u0435\u0440\u0435\u0433\u0430 \u043D\u0430\u0431\u043E\u0440\u043E\u0442_1"
       rect:
         serializedVersion: 2
         x: 32
@@ -140,14 +140,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8702851dcd818548bdbf7af92d1efea
-      internalID: -1502328417
+      spriteID: 41c4539033960194a8054856f901148a
+      internalID: -1954095406
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: travs_2
+      name: "\u0431\u0435\u0440\u0435\u0433\u0430 \u043D\u0430\u0431\u043E\u0440\u043E\u0442_2"
       rect:
         serializedVersion: 2
         x: 64
@@ -161,14 +161,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8da34e2bb9d8ba4c8afe2bd64d85909
-      internalID: -236515949
+      spriteID: 758daa01c918bce4399a7a353f1cfb21
+      internalID: -504267061
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: travs_3
+      name: "\u0431\u0435\u0440\u0435\u0433\u0430 \u043D\u0430\u0431\u043E\u0440\u043E\u0442_3"
       rect:
         serializedVersion: 2
         x: 0
@@ -182,14 +182,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6019a116d5844f4299e1df9ff7a4b51
-      internalID: -1566480008
+      spriteID: af60883fcba09fb40ba83fac78044fac
+      internalID: -1513525303
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: travs_4
+      name: "\u0431\u0435\u0440\u0435\u0433\u0430 \u043D\u0430\u0431\u043E\u0440\u043E\u0442_4"
       rect:
         serializedVersion: 2
         x: 32
@@ -203,14 +203,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5384ad5d11a7e974f92bdbfe19445357
-      internalID: 1059867682
+      spriteID: f990ae64d14ad854699b6e91d15ba796
+      internalID: -2045439171
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: travs_5
+      name: "\u0431\u0435\u0440\u0435\u0433\u0430 \u043D\u0430\u0431\u043E\u0440\u043E\u0442_5"
       rect:
         serializedVersion: 2
         x: 64
@@ -224,14 +224,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f31542e55686d9a4fb1e51be9f6f2de9
-      internalID: -523368300
+      spriteID: feae5a8c15cab2d428ca6e4b2a1bac54
+      internalID: 613502090
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: travs_6
+      name: "\u0431\u0435\u0440\u0435\u0433\u0430 \u043D\u0430\u0431\u043E\u0440\u043E\u0442_6"
       rect:
         serializedVersion: 2
         x: 0
@@ -245,14 +245,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcf2f17c4cc7f27439722ca8afaf78a6
-      internalID: -1775017582
+      spriteID: b1baea0363f8e254f885d440c138f5d3
+      internalID: -1976046322
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: travs_7
+      name: "\u0431\u0435\u0440\u0435\u0433\u0430 \u043D\u0430\u0431\u043E\u0440\u043E\u0442_7"
       rect:
         serializedVersion: 2
         x: 32
@@ -266,14 +266,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6e29e6a8b59c7c4b8bb19d4433d13d7
-      internalID: 1377811440
+      spriteID: e981015f25095a045a589738f946ee44
+      internalID: 1979614834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: travs_8
+      name: "\u0431\u0435\u0440\u0435\u0433\u0430 \u043D\u0430\u0431\u043E\u0440\u043E\u0442_8"
       rect:
         serializedVersion: 2
         x: 64
@@ -287,8 +287,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1106bda1ea4085648bf3efbfe4af581a
-      internalID: 953082733
+      spriteID: f085fd278d4d998439351cd48445dff9
+      internalID: 89766932
       vertices: []
       indices: 
       edges: []
@@ -304,15 +304,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      travs_4: 1059867682
-      travs_5: -523368300
-      travs_6: -1775017582
-      travs_7: 1377811440
-      travs_0: -433070605
-      travs_3: -1566480008
-      travs_1: -1502328417
-      travs_8: 953082733
-      travs_2: -236515949
+      "\u0431\u0435\u0440\u0435\u0433\u0430 \u043D\u0430\u0431\u043E\u0440\u043E\u0442_5": 613502090
+      "\u0431\u0435\u0440\u0435\u0433\u0430 \u043D\u0430\u0431\u043E\u0440\u043E\u0442_3": -1513525303
+      "\u0431\u0435\u0440\u0435\u0433\u0430 \u043D\u0430\u0431\u043E\u0440\u043E\u0442_4": -2045439171
+      "\u0431\u0435\u0440\u0435\u0433\u0430 \u043D\u0430\u0431\u043E\u0440\u043E\u0442_1": -1954095406
+      "\u0431\u0435\u0440\u0435\u0433\u0430 \u043D\u0430\u0431\u043E\u0440\u043E\u0442_6": -1976046322
+      "\u0431\u0435\u0440\u0435\u0433\u0430 \u043D\u0430\u0431\u043E\u0440\u043E\u0442_2": -504267061
+      "\u0431\u0435\u0440\u0435\u0433\u0430 \u043D\u0430\u0431\u043E\u0440\u043E\u0442_8": 89766932
+      "\u0431\u0435\u0440\u0435\u0433\u0430 \u043D\u0430\u0431\u043E\u0440\u043E\u0442_7": 1979614834
+      "\u0431\u0435\u0440\u0435\u0433\u0430 \u043D\u0430\u0431\u043E\u0440\u043E\u0442_0": 1028110573
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

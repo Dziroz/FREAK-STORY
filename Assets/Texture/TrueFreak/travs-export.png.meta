@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f2c9c15b503b89049bad06587a8b58d9
+guid: a26615fb49c8f36478154f73da6f46b3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,7 +105,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: travs_0
+      name: travs-export_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,14 +119,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf7712221d8282549a818f7b0c81a658
-      internalID: -433070605
+      spriteID: 8643a28ae904ab546ab6dc76a9c48d71
+      internalID: 1093613954
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: travs_1
+      name: travs-export_1
       rect:
         serializedVersion: 2
         x: 32
@@ -140,14 +140,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8702851dcd818548bdbf7af92d1efea
-      internalID: -1502328417
+      spriteID: a03d82df3d0cd0b4f946faeb0f34a7d5
+      internalID: 871605738
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: travs_2
+      name: travs-export_2
       rect:
         serializedVersion: 2
         x: 64
@@ -161,14 +161,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8da34e2bb9d8ba4c8afe2bd64d85909
-      internalID: -236515949
+      spriteID: 3a78178898c5ded45bf939f046ac866a
+      internalID: -483043965
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: travs_3
+      name: travs-export_3
       rect:
         serializedVersion: 2
         x: 0
@@ -182,14 +182,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6019a116d5844f4299e1df9ff7a4b51
-      internalID: -1566480008
+      spriteID: 66a42a49d4c7980409470279a9cd3da8
+      internalID: -191054799
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: travs_4
+      name: travs-export_4
       rect:
         serializedVersion: 2
         x: 32
@@ -203,14 +203,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5384ad5d11a7e974f92bdbfe19445357
-      internalID: 1059867682
+      spriteID: 80c3a5035fcf4334dbc857360b2322c4
+      internalID: 1708395588
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: travs_5
+      name: travs-export_5
       rect:
         serializedVersion: 2
         x: 64
@@ -224,14 +224,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f31542e55686d9a4fb1e51be9f6f2de9
-      internalID: -523368300
+      spriteID: 69943070c1d4ef845a92ab49931cca79
+      internalID: -802074486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: travs_6
+      name: travs-export_6
       rect:
         serializedVersion: 2
         x: 0
@@ -245,14 +245,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcf2f17c4cc7f27439722ca8afaf78a6
-      internalID: -1775017582
+      spriteID: 88ca5569c3d0d2d4db9da1e1c75fd778
+      internalID: -949220135
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: travs_7
+      name: travs-export_7
       rect:
         serializedVersion: 2
         x: 32
@@ -266,14 +266,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6e29e6a8b59c7c4b8bb19d4433d13d7
-      internalID: 1377811440
+      spriteID: 23ce51334add87040aae5b6894e58ea4
+      internalID: -1295125449
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: travs_8
+      name: travs-export_8
       rect:
         serializedVersion: 2
         x: 64
@@ -287,8 +287,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1106bda1ea4085648bf3efbfe4af581a
-      internalID: 953082733
+      spriteID: 1e6fa179d5b54a24d8a1670fdcef813a
+      internalID: -1364041196
       vertices: []
       indices: 
       edges: []
@@ -304,15 +304,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      travs_4: 1059867682
-      travs_5: -523368300
-      travs_6: -1775017582
-      travs_7: 1377811440
-      travs_0: -433070605
-      travs_3: -1566480008
-      travs_1: -1502328417
-      travs_8: 953082733
-      travs_2: -236515949
+      travs-export_1: 871605738
+      travs-export_8: -1364041196
+      travs-export_2: -483043965
+      travs-export_7: -1295125449
+      travs-export_4: 1708395588
+      travs-export_5: -802074486
+      travs-export_6: -949220135
+      travs-export_3: -191054799
+      travs-export_0: 1093613954
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
