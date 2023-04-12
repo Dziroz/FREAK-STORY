@@ -5,7 +5,7 @@ using UnityEngine;
 public class FISHINGTRIGGER : MonoBehaviour
 {
     public GameObject FISH;
-    public bool isFishing;
+    public bool isFishing = false;
     static public bool RIBA;
     void Start()
     {
@@ -16,18 +16,26 @@ public class FISHINGTRIGGER : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            if (FISH.activeSelf == true)
+            if ((FISH.activeSelf == true))
             {
                 FISH.SetActive(false);
                 RIBA = false;
             }
             else
             {
-                FISH.SetActive(true);
-                RIBA = true;
+                if (isFishing)
+                {
+                    FISH.SetActive(true);
+                    RIBA = true;
+                }
+
             }
 
 
+        }
+        if(FISH.activeSelf == false)
+        {
+            RIBA = false;
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
