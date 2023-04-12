@@ -12,6 +12,10 @@ public class Log : Enemy
     public GameObject yUP;
     public GameObject yDOWN;
     public Rigidbody2D rb;
+    public bool isBoss;
+    private float tm;
+    private float temp;
+    public GameObject bolt;
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -28,6 +32,28 @@ public class Log : Enemy
     }
     private void FixedUpdate()
     {
+        Debug.Log(tm);
+        if (isBoss)
+        {
+            tm += Time.deltaTime;
+            if (tm >= 5)
+            {
+                temp += Time.deltaTime;
+                if (temp >= 1)
+                {
+                    anim.SetBool("mag", true);
+                    Instantiate(bolt, new Vector2(this.transform.position.x, this.transform.position.y), Quaternion.identity);
+                    
+                    tm = 0;
+                    temp = 0;
+                    return;
+                }
+            }
+            CheckDistance();
+            changeAnim(transform.position);
+            return;
+        }
+        //Debug.Log("1");
         CheckDistance();
         changeAnim(transform.position);
     }
