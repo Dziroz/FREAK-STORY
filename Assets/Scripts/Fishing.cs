@@ -50,6 +50,7 @@ public class Fishing : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(hookPosition);
         if (pause)
         {
             return;
@@ -66,8 +67,8 @@ public class Fishing : MonoBehaviour
 
         float min = hookPosition - hookSize / 2;
         float max = hookPosition + hookSize / 2;
-
-        if(min < fishPosition && fishPosition < max)
+        
+        if (min < fishPosition && fishPosition < max)
         {
             hookProgress += hookPower * Time.deltaTime;
         }
@@ -99,8 +100,13 @@ public class Fishing : MonoBehaviour
     }
     void Hook()
     {
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            hookPullVelocity = 0;
+        }
         if (Input.GetKey(KeyCode.F))
         {
+
             hookPullVelocity += hookPullPower * Time.deltaTime;
             //Debug.Log("333");
         }
