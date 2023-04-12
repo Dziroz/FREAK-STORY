@@ -39,7 +39,11 @@ public class PlayerMovement : MonoBehaviour
     {
         if(currentState == PlayerState.walk)
         {
-            UpdateAnimationAndMove();
+            if(FISHINGTRIGGER.RIBA== false)
+            {
+                UpdateAnimationAndMove();
+            }
+            //UpdateAnimationAndMove();
         }
        // UpdateAnimationAndMove();
     }

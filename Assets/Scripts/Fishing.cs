@@ -29,6 +29,7 @@ public class Fishing : MonoBehaviour
     [SerializeField] SpriteRenderer hookSpriteRenderer;
 
     [SerializeField] Transform progressBarContainer;
+    public GameObject EBALO;
 
     bool pause = false;
     void Start()
@@ -79,12 +80,13 @@ public class Fishing : MonoBehaviour
         if(hookProgress >= 1f)
         {
             Win();
+            hookProgress = 0;
         }
         hookProgress = Mathf.Clamp(hookProgress, 0f, 1f);
     }
     private void Win()
     {
-        Debug.Log("YOU WIN");
+        EBALO.SetActive(false);
     }
     void Fish()
     {
