@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0ac0b45c29c12fb43a188c59cf50a54c
+guid: c939ad8843465c04787458389fe84520
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,28 +117,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sprite-0017_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fe82cd8afba7cc6468bf8d3f3c5199dd
-      internalID: 2081681185
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite-0017_1
+      name: JUIK_0
       rect:
         serializedVersion: 2
         x: 0
@@ -152,14 +131,77 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1132feec80a5954cbbf277691d5ca56
-      internalID: -1262489547
+      spriteID: 8fbefa4f2a15c7744885d474036f4578
+      internalID: 909264846
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0017_2
+      name: JUIK_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c60ec5022405148abc6a65ed75a46a
+      internalID: 1343779283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUIK_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30a7d18debb27847a41b857b9cae549
+      internalID: 1705537014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUIK_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42783e0533786754e823cefb57da47dc
+      internalID: -177916732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUIK_4
       rect:
         serializedVersion: 2
         x: 0
@@ -173,18 +215,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 198180c1a9a7893469461dbedcc83209
-      internalID: -236062108
+      spriteID: 7c063f647744e714f9dc119cba02bf8b
+      internalID: -422991572
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0017_3
+      name: JUIK_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
+        x: 32
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -194,8 +236,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b7f9a5a3136cf748870d2731d78738e
-      internalID: 1903341386
+      spriteID: ac644d77dcc44ea47af700a009d5e733
+      internalID: 1842171780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUIK_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae61e29687cf7c439558581fcda3a58
+      internalID: 1849278634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUIK_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4bb2db529d08a4c8b9481085c5a48c
+      internalID: 1732404822
       vertices: []
       indices: 
       edges: []
@@ -211,10 +295,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Sprite-0017_1: -1262489547
-      Sprite-0017_3: 1903341386
-      Sprite-0017_0: 2081681185
-      Sprite-0017_2: -236062108
+      JUIK_1: 1343779283
+      JUIK_3: -177916732
+      JUIK_6: 1849278634
+      JUIK_4: -422991572
+      JUIK_7: 1732404822
+      JUIK_2: 1705537014
+      JUIK_0: 909264846
+      JUIK_5: 1842171780
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
