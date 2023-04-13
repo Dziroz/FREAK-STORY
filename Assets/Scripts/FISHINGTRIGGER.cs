@@ -1,12 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class FISHINGTRIGGER : MonoBehaviour
 {
     public GameObject FISH;
     public bool isFishing = false;
     static public bool RIBA;
+    public TextMeshProUGUI RibText;
+    public GameObject box;
+    public string text;
     void Start()
     {
         
@@ -20,11 +24,13 @@ public class FISHINGTRIGGER : MonoBehaviour
             {
                 FISH.SetActive(false);
                 RIBA = false;
+                //RibText.gameObject.SetActive(false);
             }
             else
             {
                 if (isFishing)
                 {
+                    //RibText.gameObject.SetActive(true);
                     FISH.SetActive(true);
                     RIBA = true;
                 }
@@ -43,6 +49,8 @@ public class FISHINGTRIGGER : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             isFishing = true;
+            box.SetActive(true);
+            RibText.text = text;
         }
 
     }
@@ -52,7 +60,9 @@ public class FISHINGTRIGGER : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             isFishing = false;
-            
+            box.SetActive(false);
+            RibText.text = text;
+
         }
     }
 
