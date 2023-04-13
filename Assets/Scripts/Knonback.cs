@@ -22,7 +22,8 @@ public class Knonback : MonoBehaviour
                 Vector2 difference = enemy.transform.position - transform.position;
                 difference = difference.normalized * thrust;
                 enemy.AddForce(difference, ForceMode2D.Impulse);
-                StartCoroutine(KnockCo(enemy));
+                Debug.Log("ÓÄÐÀ");
+               // StartCoroutine(KnockCo(enemy));
             }
         }
     }

@@ -18,6 +18,13 @@ public class HpController : MonoBehaviour
     {
         switch (hp)
         {
+            case 0:
+                {
+                    heart1.SetActive(false);
+                    heart1.SetActive(false);
+                    heart1.SetActive(false);
+                    break;
+                }
             case 1:
                 {
                     heart1.SetActive(true);

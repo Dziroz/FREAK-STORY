@@ -32,7 +32,7 @@ public class Log : Enemy
     }
     private void FixedUpdate()
     {
-        Debug.Log(tm);
+        //Debug.Log(tm);
         if (isBoss)
         {
             tm += Time.deltaTime;
