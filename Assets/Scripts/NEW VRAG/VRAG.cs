@@ -29,7 +29,7 @@ public class VRAG : MonoBehaviour
     {
         //PushAway(target, pushPower);
         changeAnim(transform.position);
-        if(Hp <= 0)
+        if(Hp < 0)
         {
             Destroy(this.gameObject);
         }

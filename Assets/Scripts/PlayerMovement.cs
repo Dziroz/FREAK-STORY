@@ -44,7 +44,12 @@ public class PlayerMovement : MonoBehaviour
         {
             if(FISHINGTRIGGER.RIBA== false)
             {
+                animator.SetBool("isFish", false);
                 UpdateAnimationAndMove();
+            }
+            else
+            {
+                animator.SetBool("isFish", true);
             }
             //UpdateAnimationAndMove();
         }
