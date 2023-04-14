@@ -24,4 +24,8 @@ public class Autohr : MonoBehaviour
     {
         SceneManager.LoadScene(2);
     }
+    public void GoLeave()
+    {
+        Application.Quit();
+    }
 }

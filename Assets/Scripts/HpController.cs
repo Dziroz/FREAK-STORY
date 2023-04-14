@@ -22,6 +22,10 @@ public class HpController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(hp > 3)
+        {
+            hp = 3;
+        }
         timer += Time.deltaTime;
         if(hp <= 0)
         {

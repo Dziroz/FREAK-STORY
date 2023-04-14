@@ -21,9 +21,13 @@ public class fishController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.H))
         {
-            HpController.hp++;
-            Fishing.fishCount--;
-            audio.PlayOneShot(clip);
+            if(Fishing.fishCount > 0)
+            {
+                HpController.hp++;
+                Fishing.fishCount--;
+                audio.PlayOneShot(clip);
+            }
+
         }
         switch (Fishing.fishCount)
         {
