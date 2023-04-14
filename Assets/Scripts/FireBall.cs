@@ -26,5 +26,9 @@ public class FireBall : MonoBehaviour
             isPoint = false;
         }
         transform.position = Vector3.MoveTowards(transform.position, lastPosition, 0.1f);
+        if(transform.position.x == lastPosition.x && transform.position.y == lastPosition.y) 
+        {
+            Destroy(this.gameObject);
+        }
     }
 }

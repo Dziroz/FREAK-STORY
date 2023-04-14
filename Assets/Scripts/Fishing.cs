@@ -27,6 +27,7 @@ public class Fishing : MonoBehaviour
     [SerializeField] float hookGravityPower = 0.005f;
     [SerializeField] float hookProgressDefradationPower = 0.1f;
     [SerializeField] SpriteRenderer hookSpriteRenderer;
+    public static int fishCount;
 
     [SerializeField] Transform progressBarContainer;
     public GameObject EBALO;
@@ -87,6 +88,7 @@ public class Fishing : MonoBehaviour
     private void Win()
     {
         EBALO.SetActive(false);
+        fishCount++;
     }
     void Fish()
     {

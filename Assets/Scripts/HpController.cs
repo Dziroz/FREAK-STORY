@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class HpController : MonoBehaviour
 {
-    public int hp= 3;
+    static public int hp= 3;
     public GameObject heart1;
     public GameObject heart2;
     public GameObject heart3;
@@ -25,6 +25,8 @@ public class HpController : MonoBehaviour
         timer += Time.deltaTime;
         if(hp <= 0)
         {
+            hp = 3;
+            Fishing.fishCount = 0;
             SceneManager.LoadScene(0);
         }
         switch (hp)
@@ -32,8 +34,8 @@ public class HpController : MonoBehaviour
             case 0:
                 {
                     heart1.SetActive(false);
-                    heart1.SetActive(false);
-                    heart1.SetActive(false);
+                    heart2.SetActive(false);
+                    heart3.SetActive(false);
                     break;
                 }
             case 1:
