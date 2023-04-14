@@ -9,6 +9,7 @@ public class Sign : MonoBehaviour
     public GameObject dialogBox;
     public string dialog;
     public bool playerInRange;
+    public GameObject E;
     void Start()
     {
         
@@ -17,7 +18,7 @@ public class Sign : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && playerInRange)
+        if (Input.GetKeyDown(KeyCode.E) && playerInRange)
         {
             if (dialogBox.activeInHierarchy)
             {
@@ -26,6 +27,7 @@ public class Sign : MonoBehaviour
             else
             {
                 dialogBox.SetActive(true);
+                
                 dialogText.text = dialog;
             }
         }
@@ -35,6 +37,7 @@ public class Sign : MonoBehaviour
        if(other.tag == "Player")
         {
             playerInRange = true;
+            E.SetActive(true);
         } 
     }
     private void OnTriggerExit2D(Collider2D other)
@@ -43,6 +46,7 @@ public class Sign : MonoBehaviour
         {
             playerInRange = false;
             dialogBox.SetActive(false);
+            E.SetActive(false);
         }
     }
 }

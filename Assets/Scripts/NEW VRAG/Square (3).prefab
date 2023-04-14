@@ -100,7 +100,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  player: {fileID: 0}
   distance: 1
+  vidnoGeroya: 0
+  duration: 0
+  power: 0
+  yUP: {fileID: 0}
+  yDOWN: {fileID: 0}
+  anim: {fileID: 0}
+  Hp: 3
 --- !u!50 &6967295422145892405
 Rigidbody2D:
   serializedVersion: 4

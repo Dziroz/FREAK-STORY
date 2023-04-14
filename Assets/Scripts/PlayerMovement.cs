@@ -15,9 +15,11 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 change;
     private Animator animator;
     public PlayerState currentState;
-
+    public AudioSource CORS;
+    public AudioClip UDAR;
     void Start()
     {
+        CORS = GetComponent<AudioSource>();
         currentState = PlayerState.walk;
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
@@ -31,6 +33,7 @@ public class PlayerMovement : MonoBehaviour
         change.y = Input.GetAxisRaw("Vertical");
         if(Input.GetKeyDown(KeyCode.Space) && currentState != PlayerState.attack)
         {
+            CORS.PlayOneShot(UDAR);
             StartCoroutine(AttackCo());
             
         }

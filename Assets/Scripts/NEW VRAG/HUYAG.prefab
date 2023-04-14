@@ -99,11 +99,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52fa8b67a9ce34945b9f1ad3e13eb888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 3
   player: {fileID: 0}
   distance: 1
+  vidnoGeroya: 10
   duration: 1
-  power: 12
+  power: 10
 --- !u!50 &8945650444673262773
 Rigidbody2D:
   serializedVersion: 4
