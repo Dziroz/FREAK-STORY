@@ -12,6 +12,7 @@ public class RoomMove : MonoBehaviour
     public bool MouseRoom;
     public bool MouseDied;
     public GameObject kris;
+    static public bool key;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,9 +29,13 @@ public class RoomMove : MonoBehaviour
     {
         if((other.tag == "Player") && (MouseRoom == false)) 
         {
-            cam.minPosition = minPosition;
-            cam.maxPosition = maxPosition;
-            other.transform.position += playerChange;
+            if(key == true)
+            {
+                cam.minPosition = minPosition;
+                cam.maxPosition = maxPosition;
+                other.transform.position += playerChange;
+            }
+
         }
         if ((other.tag == "Player") && (MouseRoom == true))
         {

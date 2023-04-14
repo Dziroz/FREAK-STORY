@@ -27,7 +27,9 @@ public class HpController : MonoBehaviour
         {
             hp = 3;
             Fishing.fishCount = 0;
-            SceneManager.LoadScene(0);
+            Sign.IsMech = false;
+            RoomMove.key = false;
+            SceneManager.LoadScene(1);
         }
         switch (hp)
         {
@@ -92,5 +94,16 @@ public class HpController : MonoBehaviour
                 audioSou.PlayOneShot(hit);
             }
        }
+        if (collision.gameObject.tag == "fire")
+        {
+            if (timer >= 1)
+            {
+                hp--;
+                timer = 0;
+                col.enabled = false;
+                col.enabled = true;
+                audioSou.PlayOneShot(hit);
+            }
+        }
     }  
 }

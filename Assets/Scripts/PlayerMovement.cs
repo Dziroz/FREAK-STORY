@@ -33,8 +33,12 @@ public class PlayerMovement : MonoBehaviour
         change.y = Input.GetAxisRaw("Vertical");
         if(Input.GetKeyDown(KeyCode.Space) && currentState != PlayerState.attack)
         {
-            CORS.PlayOneShot(UDAR);
-            StartCoroutine(AttackCo());
+            if (Sign.IsMech == true)
+            {
+                CORS.PlayOneShot(UDAR);
+                StartCoroutine(AttackCo());
+            }
+
             
         }
     }

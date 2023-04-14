@@ -10,6 +10,8 @@ public class Sign : MonoBehaviour
     public string dialog;
     public bool playerInRange;
     public GameObject E;
+    public bool mechIs;
+    static public bool IsMech = false;
     void Start()
     {
         
@@ -38,6 +40,14 @@ public class Sign : MonoBehaviour
         {
             playerInRange = true;
             E.SetActive(true);
+            if (mechIs)
+            {
+                if (IsMech == false)
+                {
+                    IsMech = true;
+                }
+            }
+
         } 
     }
     private void OnTriggerExit2D(Collider2D other)

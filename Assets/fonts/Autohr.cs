@@ -22,6 +22,6 @@ public class Autohr : MonoBehaviour
     }
     public void GOPLAY()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(2);
     }
 }
